@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class AudioBookTest {
+public abstract class AudioBookTest {
 
     AudioBook book2 = new AudioBook("a", "b", "c", "d", 3.5, "e");
 

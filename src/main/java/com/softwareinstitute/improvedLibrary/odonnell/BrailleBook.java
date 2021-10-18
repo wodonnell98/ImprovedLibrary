@@ -53,7 +53,7 @@ public class BrailleBook extends Book {
         return fontSize;
     }
 
-    public void setFontSize(int fontSize) {
+    public void setFontSize(double fontSize) {
         this.fontSize = fontSize;
     }
 }
