@@ -20,8 +20,17 @@ public class AudioBook extends Book implements Speaker{
 
 
 
-    public void read(String method) {
-        System.out.println("You listen to this book.");
+    //public void read(String method) {
+        //System.out.println("You listen to this book.");
+   // }
+
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public String getNarrator() {
@@ -46,14 +55,6 @@ public class AudioBook extends Book implements Speaker{
 
     public void setLength(double length) {
         this.length = length;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
     }
 
     @Override

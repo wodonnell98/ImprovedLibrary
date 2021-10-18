@@ -45,35 +45,6 @@ public class BrailleBookTest {
         book3.getFontSize();
     }
 
-    @Test
-    public void testType3() {
-        book3.getType();
-    }
-
-    @Test
-    public void testTitle3() {
-        book3.getTitle();
-    }
-
-    @Test
-    public void testAuthor3() {
-        book3.getAuthor();
-    }
-
-    @Test
-    public void testLanguage3() {
-        book3.getLanguage();
-    }
-
-    @Test
-    public void testLength3() {
-        book3.getLength();
-    }
-
-    @Test
-    public void testFontSize2() {
-        book3.getFontSize();
-    }
 
     @Test
     public void testBookType() {

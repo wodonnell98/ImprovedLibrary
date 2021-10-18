@@ -12,7 +12,7 @@ public abstract class Book extends LibraryItems{
 
 
 
-    public abstract void read (String method);
+    //public abstract void read (String method);
 
     public String getTitle() {
         return title;

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public abstract class AudioBookTest {
+public class AudioBookTest {
 
     AudioBook book2 = new AudioBook("a", "b", "c", "d", 3.5, "e");
 
@@ -37,6 +37,12 @@ public abstract class AudioBookTest {
     public void testLength() {
         book2.setLength(4);
         book2.getLength();
+    }
+
+    @Test
+    public void testNarrator() {
+        book2.setNarrator("Billy Joel");
+        book2.getNarrator();
     }
 
     @Test

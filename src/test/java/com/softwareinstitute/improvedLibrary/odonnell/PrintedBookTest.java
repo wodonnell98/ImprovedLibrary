@@ -39,10 +39,6 @@ public class PrintedBookTest {
         book1.getLength();
     }
 
-    @Test
-    public void testType2(){
-        book1.getType();
-    }
 
     @Test
     public void testTitle2(){

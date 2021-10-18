@@ -13,6 +13,8 @@ public abstract class LibraryItems {
 
 
 
+    //public abstract void read (String method);
+
     public String getType() {
         return type;
     }

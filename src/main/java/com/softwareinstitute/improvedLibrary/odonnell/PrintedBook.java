@@ -19,9 +19,9 @@ public class PrintedBook extends Book{
 
 
 
-    public void read(String method) {
-        System.out.println("You read this book visually.");
-    }
+    //public void read(String method) {
+        //System.out.println("You read this book visually.");
+    //}
 
     public String getAuthor() {
         return author;
