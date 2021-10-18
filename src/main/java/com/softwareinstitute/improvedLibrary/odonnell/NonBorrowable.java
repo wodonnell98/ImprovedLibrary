@@ -10,13 +10,13 @@ public class NonBorrowable extends Computer implements Speaker{
         this.notBorrowable = notBorrowable;
     }
 
-    public void cannot(String illegal){
+    /*public void cannot(String illegal){
         System.out.println("It is illegal to borrow a library computer.");
     }
     public void read(String method) {
         System.out.println("You can read or look at this library item.");
     }
-
+*/
     public String getNotBorrowable() {
         return notBorrowable;
     }
