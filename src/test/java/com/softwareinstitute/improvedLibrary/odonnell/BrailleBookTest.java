@@ -56,6 +56,26 @@ public class BrailleBookTest {
     }
 
     @Test
+    public void testAuthor3() {
+        book3.getAuthor();
+    }
+
+    @Test
+    public void testLanguage3() {
+        book3.getLanguage();
+    }
+
+    @Test
+    public void testLength3() {
+        book3.getLength();
+    }
+
+    @Test
+    public void testFontSize2() {
+        book3.getFontSize();
+    }
+
+    @Test
     public void testBookType() {
         assertEquals("Not a book.", "a", book3.getType());
     }
