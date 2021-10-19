@@ -9,10 +9,12 @@ public class Library {
         libraryItems.add("Computer");
 
         //update element of arraylist
-        //libraryItems.set(1, "Asus");
+        //libraryItems.set(1, "Magazine");
 
         for(String name: libraryItems) {
             System.out.println(name);
         }
     }
+
 }
+
