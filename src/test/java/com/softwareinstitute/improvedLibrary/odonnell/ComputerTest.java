@@ -19,7 +19,18 @@ public class ComputerTest {
     public void testBrand() {
         computer1.setBrand("HP");
         computer1.getBrand();
-
-
     }
+
+    @Test
+    public void testItemType() {
+        assertEquals("Not a computer.", "computer", computer1.getType());
+    }
+
+    @Test
+    public void testItemBrand() {
+        assertEquals("Not a Dell.", "Dell", computer1.getBrand());
+    }
+
+
+
 }

@@ -13,7 +13,7 @@ public class NonBorrowableTest {
         PC.setType("computer");
         PC.getType();
     }
-    
+
     @Test
     public void testBrand() {
         PC.setBrand("Dell");
@@ -26,4 +26,18 @@ public class NonBorrowableTest {
         PC.getNotBorrowable();
     }
 
+    @Test
+    public void testNonBorrowableType() {
+        assertEquals("Not a computer.", "computer", PC.getType());
+    }
+
+    @Test
+    public void testNonBorrowableBrand() {
+        assertEquals("Not a Dell.", "Dell", PC.getBrand());
+    }
+
+    @Test
+    public void testIsItNonBorrowable() {
+        assertEquals("This should not be borrowable.", "Yes", PC.getNotBorrowable());
+    }
 }

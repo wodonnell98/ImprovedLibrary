@@ -14,9 +14,9 @@ public class Computer extends LibraryItems {
 
 
 
-    public void read (String method){
-        System.out.println("You can read the computer.");
-    }
+    //public void read (String method){
+     //   System.out.println("You can read the computer.");
+   // }
 
     public String getBrand() {
         return brand;
